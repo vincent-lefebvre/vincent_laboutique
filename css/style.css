@@ -1,0 +1,50 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 1000px;
+    height: 130px;
+    background: white;
+}
+
+header div{
+    float: left;
+    display: block;
+    width: 33%;
+    
+}
+.panier{
+    float: right;
+    background-color: #33ccff;
+    color: aliceblue;
+    text-align: center;
+}
+.aide{
+    display: block;
+
+}
+
+nav{
+    background-color: #33ccff;
+    color: azure;
+    display: inline;
+    /* float: left; */
+    /* width: 1000px; */
+}
+
+
+
+
+footer{
+    background-color: coral;
+    width: 1000px;
+    height: 100px;
+}
+
+
+
+.clear{
+    clear: both;
+}
