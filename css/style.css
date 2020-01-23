@@ -1,8 +1,15 @@
 body{
-    background-color: aquamarine;
+    background: url(../img/fond.png);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    font-size: 1em;
 }
 
+#conteneur{
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
 header{
     width: 1000px;
     height: 130px;
@@ -10,9 +17,9 @@ header{
 }
 
 header div{
-    float: left;
-    display: block;
-    width: 33%;
+    /* float: left; */
+    display: inline-block;
+    width: 300px;
     
 }
 .panier{
@@ -20,30 +27,59 @@ header div{
     background-color: #33ccff;
     color: aliceblue;
     text-align: center;
+    height: 100px;
 }
-.aide{
-    display: block;
 
+.aide{
+    display: inline-block;
+
+}
+
+section{
+    display: inline;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    display: block;
+}
+
+.milieu{
+    width: 60%;
+    float: left;
+    display: block;
 }
 
 nav{
     background-color: #33ccff;
     color: azure;
-    display: inline;
+    /* display: inline-block; */
     /* float: left; */
-    /* width: 1000px; */
-}
-
-
-
-
-footer{
-    background-color: coral;
     width: 1000px;
-    height: 100px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration-style: none;
+}
+nav ul{
+    display: inline-block;
+}
+nav li{
+    display: block;
+    word-spacing: 20px;
 }
 
+h4{
+    color: #33ccff;
+}
 
+h5{
+    color: #fff;
+}
+
+h6{
+    color: #ff99cc;
+}
 
 .clear{
     clear: both;

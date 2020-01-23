@@ -22,8 +22,29 @@
         
         main p{
             display: inline-block;
-            width: 190px;
-            padding: 5px;
+            width: 300px;
+            /* padding: 5px; */
+        }
+
+        #images img{
+            /* display: inline; */
+            /* display: block; */
+            display: inline-block;
+
+        }
+        #zone3 address {
+        display: inline-block;
+        width: 300px;
+        height: 100px;
+        border: 1px solid olive;
+        box-sizing: border-box;
+        /* line-height: 200px; */
+        padding: 20px;
+        }
+
+        #zone3 address:nth-child(even) {
+            color: white;
+            background: orange;
         }
     
     </style>
@@ -33,6 +54,36 @@
         <!-- les commentaires vides entre les p sont là pour gérer l'espace blanc généré par la propriété display: inline-block; NE PAS LES ENLEVER !!!!!!!!!!!! -->
         <h1><code>display: inline;</code> et <code>display: inline-block;</code></h1>
         <p>1- Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, placeat error voluptatum libero excepturi omnis voluptas sed facilis tenetur quasi odit rem, sint corrupti quas iure consectetur est adipisci nam?</p><!-- --><p class="orange">2- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita praesentium numquam ea veniam impedit. Ullam doloribus rem est facilis rerum, cumque error perspiciatis fugit sunt harum repudiandae tenetur deleniti expedita.</p><!-- --><p>3- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque et tempora delectus cumque enim ipsam sapiente quia quibusdam. Sit veniam, magni fugit laboriosam dolorem illum alias? Veniam fugiat architecto reiciendis.</p><a href="https://www.alsacreations.com/astuce/lire/1432-display-inline-block-espaces-indesirables.html" target="_blank">display inline block et l'espace blanc</a>
+        <div id="images">
+            <img src="img/survol_img2.jpg" alt=""><img src="img/survol_img3.jpg" alt=""><img src="img/survol_img4.jpg" alt=""><img src="img/survol_img2.jpg" alt=""><img src="img/survol_img3.jpg" alt=""><img src="img/survol_img4.jpg" alt="">
+        </div>
+        <div id="zone3">
+            <address>
+                Jacques Duroc<br>
+                12 avenue du Soleil
+                75012 Paris
+            </address><address>
+                Jacques Chirac<br>
+                12 avenue du Soleil
+                75012 Paris
+            </address><address>
+                Jacques Dutronc<br>
+                12 avenue du Soleil
+                75012 Paris
+            </address><address>
+                Jacques Duroc<br>
+                12 avenue du Soleil
+                75012 Paris
+            </address><address>
+                Jacques Chirac<br>
+                12 avenue du Soleil
+                75012 Paris
+            </address><address>
+                Jacques Dutronc<br>
+                12 avenue du Soleil
+                75012 Paris
+            </address>
+        </div>
     </main>
 </body>
 </html>
